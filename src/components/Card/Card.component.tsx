@@ -66,7 +66,6 @@ const Card: React.FC<CardProps> = ({
                 <span className="card__card-number--space" key={`space-${idx}`}></span>
             );
         } else {
-            // cardNumberRow.push(<span key={`card-number-${idx}`}>{cardNumber}</span>);
             cardNumberRow.push(
                 <SwitchTransition key={`card-number-${idx}`}>
                     <CSSTransition
@@ -148,7 +147,9 @@ const Card: React.FC<CardProps> = ({
             </div>
             <div className="card__back">
                 <div
-
+                    className={`card__focus-box ${!!focusSection && `card__focus-box--active`
+                        }`}
+                    style={focusBoxStyle}
                 />
                 <div className="card__background">
                     <img src={creditCard} alt="" />
@@ -158,11 +159,9 @@ const Card: React.FC<CardProps> = ({
                 </div>
                 <div className="card__card-cvc">
                     <div className="card__card-cvc-title">
-                        <span ></span>
+                        <span ref={cardItemRefs.ccCvcRef}>{props.cardCVC || "CVC"}</span>
                     </div>
                     <div className="card__card-cvc-number"></div>
-                </div>
-                <div className="card__bottom">
                 </div>
             </div>
 

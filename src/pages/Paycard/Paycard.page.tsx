@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../../components/Card/Card.component.tsx';
 import CardForm from '../../components/CardForm/CardForm.component.tsx';
+import './Paycard.styles.scss';
 
 
 export interface CardState {
@@ -82,7 +83,7 @@ const Paycard = () => {
     return (
         <div className='paycard'>
             <Card {...cardProps} />
-            <CardForm />
+            <CardForm {...cardFormProps} />
         </div>
     );
 }
