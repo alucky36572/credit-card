@@ -151,7 +151,6 @@ const CardForm: React.FC<CardFormProps> = ({
                             name="card-expiration-month"
                             id="card-expiration-month"
                             defaultValue='Month'
-                            value={props.cardExpirationMonth}
                             onChange={(e) => dispatch({ type: "updateCardExpirationMonth", payload: e.target.value })}
                             onFocus={() => {
                                 handleSetFocusSection("cc-exp");
@@ -170,7 +169,6 @@ const CardForm: React.FC<CardFormProps> = ({
                             name="card-expiration-year"
                             id="card-expiration-year"
                             defaultValue='Year'
-                            value={props.cardExpirationYear}
                             onChange={(e) => dispatch({ type: "updateCardExpirationYear", payload: e.target.value })}
                             onFocus={() => {
                                 handleSetFocusSection("cc-exp");
