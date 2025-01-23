@@ -6,3 +6,4 @@
 * 輸入至 CVC 欄位卡片自動翻轉至背面
 * 使用 useReducer 儲存信用卡資訊
 * 安裝 gh-pages 部署 React 網站到 GitHub Page
+  [網站連結](https://alucky36572.github.io/credit-card/))
