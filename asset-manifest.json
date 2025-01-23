@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/credit-card/static/css/main.422c46fc.css",
+    "main.css": "/credit-card/static/css/main.1ec6ae7d.css",
     "main.js": "/credit-card/static/js/main.52542657.js",
     "static/js/453.543384c8.chunk.js": "/credit-card/static/js/453.543384c8.chunk.js",
     "static/media/credit-card.jpg": "/credit-card/static/media/credit-card.c11cf08c195b03e075e4.jpg",
     "index.html": "/credit-card/index.html",
-    "main.422c46fc.css.map": "/credit-card/static/css/main.422c46fc.css.map",
+    "main.1ec6ae7d.css.map": "/credit-card/static/css/main.1ec6ae7d.css.map",
     "main.52542657.js.map": "/credit-card/static/js/main.52542657.js.map",
     "453.543384c8.chunk.js.map": "/credit-card/static/js/453.543384c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.422c46fc.css",
+    "static/css/main.1ec6ae7d.css",
     "static/js/main.52542657.js"
   ]
 }
