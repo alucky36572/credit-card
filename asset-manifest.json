@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.422c46fc.css",
-    "main.js": "/static/js/main.93b9ff69.js",
-    "static/js/453.543384c8.chunk.js": "/static/js/453.543384c8.chunk.js",
-    "static/media/credit-card.jpg": "/static/media/credit-card.c11cf08c195b03e075e4.jpg",
-    "index.html": "/index.html",
-    "main.422c46fc.css.map": "/static/css/main.422c46fc.css.map",
-    "main.93b9ff69.js.map": "/static/js/main.93b9ff69.js.map",
-    "453.543384c8.chunk.js.map": "/static/js/453.543384c8.chunk.js.map"
+    "main.css": "/credit-card/static/css/main.422c46fc.css",
+    "main.js": "/credit-card/static/js/main.0a80fdc5.js",
+    "static/js/453.543384c8.chunk.js": "/credit-card/static/js/453.543384c8.chunk.js",
+    "static/media/credit-card.jpg": "/credit-card/static/media/credit-card.c11cf08c195b03e075e4.jpg",
+    "index.html": "/credit-card/index.html",
+    "main.422c46fc.css.map": "/credit-card/static/css/main.422c46fc.css.map",
+    "main.0a80fdc5.js.map": "/credit-card/static/js/main.0a80fdc5.js.map",
+    "453.543384c8.chunk.js.map": "/credit-card/static/js/453.543384c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.422c46fc.css",
-    "static/js/main.93b9ff69.js"
+    "static/js/main.0a80fdc5.js"
   ]
 }
